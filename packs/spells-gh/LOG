@@ -1,0 +1,5 @@
+2026/02/07-16:38:40.514742 172baf000 Delete type=3 #1
+2026/02/07-16:38:40.516606 17445f000 Level-0 table #5: started
+2026/02/07-16:38:40.517097 17445f000 Level-0 table #5: 40065 bytes OK
+2026/02/07-16:38:40.517176 17445f000 Delete type=0 #3
+2026/02/07-16:38:40.517227 17445f000 Manual compaction at level-0 from '!folders!GHf1stLevelSpell' @ 72057594037927935 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at (end)
