@@ -1,0 +1,125 @@
+_id: GHsMortality0000
+name: Mortality
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell you must expend five hit dice or the
+      spell automatically fails. When you do, choose an aberration, celestial,
+      elemental, fey, or fiend within range and condemn it to a taste of
+      mortality. The creature must succeed on a Charisma saving throw or have
+      its current and maximum hit points reduced. Roll the hit dice expended to
+      cast this spell to determine the amount the creature's current and
+      maximum hit points are reduced by.</p><p>Additionally, for the duration
+      of the spell, a creature that fails the saving throw loses all damage
+      immunities and resistances, its creature type changes to humanoid, and
+      takes an additional 1d4 necrotic damage each time it takes
+      damage.</p><p>If a creature affected by this spell is reduced to 0 hit
+      points, these changes become permanent and the creature dies. This final
+      effect of the spell can only be reversed if the creature is restored to
+      life and targeted by a remove curse spell or similar magic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: trs
+  materials:
+    value: The skull of a humanoid encrusted in gems worth at least 200 gp
+    consumed: false
+    cost: 200
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: mortality
+sort: 0
+flags: {}
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+effects: []
+folder: GHf5thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsMortality0000'
