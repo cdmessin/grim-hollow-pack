@@ -1,0 +1,16 @@
+name: Cantrip
+type: Item
+_id: GHfCantrips00000
+folder: null
+sorting: a
+sort: 100000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#7a1a1a'
+_key: '!folders!GHfCantrips00000'

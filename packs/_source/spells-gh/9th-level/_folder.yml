@@ -1,0 +1,16 @@
+name: 9th Level
+type: Item
+_id: GHf9thLevelSpell
+folder: null
+sorting: a
+sort: 1000000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#6b1515'
+_key: '!folders!GHf9thLevelSpell'

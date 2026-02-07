@@ -1,0 +1,16 @@
+name: 8th Level
+type: Item
+_id: GHf8thLevelSpell
+folder: null
+sorting: a
+sort: 900000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#5c1010'
+_key: '!folders!GHf8thLevelSpell'

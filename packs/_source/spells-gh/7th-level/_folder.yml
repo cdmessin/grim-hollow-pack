@@ -1,0 +1,16 @@
+name: 7th Level
+type: Item
+_id: GHf7thLevelSpell
+folder: null
+sorting: a
+sort: 800000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#4d0b0b'
+_key: '!folders!GHf7thLevelSpell'

@@ -1,0 +1,14 @@
+{
+  "name": "grim-hollow-pack",
+  "version": "1.0.0",
+  "description": "Grim Hollow Pack for Foundry VTT",
+  "private": true,
+  "scripts": {
+    "build": "fvtt package pack --type Module --id grim-hollow-pack",
+    "build:spells": "fvtt package pack spells-gh --type Module --id grim-hollow-pack",
+    "clean": "fvtt package unpack spells-gh --type Module --id grim-hollow-pack"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0"
+  }
+}

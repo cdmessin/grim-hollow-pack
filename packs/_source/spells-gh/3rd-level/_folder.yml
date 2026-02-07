@@ -1,0 +1,16 @@
+name: 3rd Level
+type: Item
+_id: GHf3rdLevelSpell
+folder: null
+sorting: a
+sort: 400000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#4d0b0b'
+_key: '!folders!GHf3rdLevelSpell'

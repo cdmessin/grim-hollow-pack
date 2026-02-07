@@ -1,0 +1,16 @@
+name: 6th Level
+type: Item
+_id: GHf6thLevelSpell
+folder: null
+sorting: a
+sort: 700000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#3e0606'
+_key: '!folders!GHf6thLevelSpell'

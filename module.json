@@ -1,0 +1,49 @@
+{
+  "id": "grim-hollow-pack",
+  "title": "Grim Hollow Pack",
+  "description": "Spells and content from the Grim Hollow Players Guide for the DnD5e system in Foundry VTT.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "crmessin"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "spells-gh",
+      "label": "Spells (Grim Hollow)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/spells-gh",
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["spell"]
+        }
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Grim Hollow",
+      "color": "#4a0e0e",
+      "sorting": "m",
+      "packs": ["spells-gh"]
+    }
+  ]
+}

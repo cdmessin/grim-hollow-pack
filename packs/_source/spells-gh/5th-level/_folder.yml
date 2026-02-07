@@ -1,0 +1,16 @@
+name: 5th Level
+type: Item
+_id: GHf5thLevelSpell
+folder: null
+sorting: a
+sort: 600000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#2f0101'
+_key: '!folders!GHf5thLevelSpell'
