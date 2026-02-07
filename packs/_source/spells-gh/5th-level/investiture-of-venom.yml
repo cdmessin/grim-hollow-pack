@@ -1,0 +1,137 @@
+_id: GHsInvestVenom00
+name: Investiture of Venom
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>Until the spell ends, your veins bulge and become visibly green
+      beneath your skin, your eyes weep constantly with liquid poison, and you
+      gain the following benefits:</p><ul><li>You are immune to poison damage
+      and the poisoned condition.</li><li>When you choose a creature you can
+      see within 30 feet, you know if it has poison resistance or immunity, as
+      well as if it is immune to the poisoned condition.</li><li>You can use a
+      bonus action on your turn and choose a creature within 30 feet. That
+      creature must make a Constitution saving throw. On a failure, the
+      creature loses any resistance or immunity it has to poison damage or the
+      poisoned condition until the end of your next turn.</li><li>You can use
+      your action to launch a geyser of toxins in a line 15 feet long and 5
+      feet wide extending from you in a direction you choose. Each creature in
+      the line must make a Constitution saving throw or take 4d6 poison damage
+      on a failed save, or half as much damage on a successful one. A creature
+      that fails its save against this effect is also poisoned until the end
+      of your next turn.</li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: trs
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: half
+        parts:
+          - number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: investiture-of-venom
+sort: 0
+flags: {}
+img: icons/magic/nature/snake-body-green.webp
+effects: []
+folder: GHf5thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsInvestVenom00'

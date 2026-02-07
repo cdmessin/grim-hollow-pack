@@ -1,0 +1,126 @@
+_id: GHsSangPoppet000
+name: Sanguine Poppet
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell, you must expend three hit dice or the
+      spell automatically fails. When you do, you smear the material component
+      used to cast this spell with your blood. The object shudders and becomes
+      a sanguine poppet under your control.</p><p>Your sanguine poppet has an
+      AC equal to 10 + your proficiency bonus + your spellcasting ability
+      modifier and 30 hp. If your sanguine poppet is ever reduced to 0 hp or
+      is more than a mile away, the spell ends immediately. As a bonus action
+      on your turn, your sanguine poppet can walk or climb up to 30 feet, and
+      you can see and hear through them until the start of your next
+      turn.</p><p>As an action, you can cause the poppet to self-destruct in an
+      explosion of blood, ending this spell. Roll the hit dice expended casting
+      this spell, and each creature within 30 feet of the poppet must succeed
+      on a Constitution saving throw or take necrotic damage equal to the
+      result. Creatures who succeed on the saving throw take half as much
+      damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 4th level or higher, you can expend an additional
+      hit die for each spell slot level above 3rd. Additionally, the duration
+      of this spell increases by one hour for each spell slot level above
+      3rd.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: minute
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: trs
+  materials:
+    value: An object shaped like a creature worth 1 cp or more
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: minute
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: sanguine-poppet
+sort: 0
+flags: {}
+img: icons/magic/death/hand-undead-construct-purple.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsSangPoppet000'

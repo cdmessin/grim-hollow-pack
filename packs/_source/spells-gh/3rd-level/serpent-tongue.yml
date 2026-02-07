@@ -1,0 +1,137 @@
+_id: GHsSerpentTongue
+name: Serpent Tongue
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You transform your tongue into a poisonous serpent for the duration.
+      When you cast the spell, you can make a melee spell attack against a
+      creature within 5 feet of you. On a hit, the target takes 1d8 piercing
+      damage and must succeed on a Constitution saving throw or become
+      poisoned. A poisoned creature can repeat this saving throw at the end of
+      each turn, ending the condition on a success.</p><p>As a bonus action on
+      your turn, you can repeat the attack against a creature within 5 feet of
+      you.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 4th level or higher, the damage increases by 1d8
+      for every level above 3rd.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: trs
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: serpent-tongue
+sort: 0
+flags: {}
+img: icons/magic/nature/snake-head-glowing-orange.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsSerpentTongue'

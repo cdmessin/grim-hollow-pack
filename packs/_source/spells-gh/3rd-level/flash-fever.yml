@@ -1,0 +1,136 @@
+_id: GHsFlashFever000
+name: Flash Fever
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>A living creature you choose within range breaks out into a cold sweat
+      and must make a Constitution saving throw. On a failure, the cold sweat
+      breaks into fever as the creature's skin becomes flushed and hot to the
+      touch, and the creature takes 1d6 fire damage at the start of its next
+      turn. On a success, the spell immediately ends.</p><p>While the spell
+      persists, you can use a reaction at the start of an affected creature's
+      turn to force the creature to take fire damage again, increasing by 1d6
+      each time. The creature can use its action to attempt to cool itself,
+      allowing it to attempt the Constitution saving throw again. On a success,
+      the creature's fever breaks and the spell ends.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 4th level
+      or higher, the initial damage increases by 1d6 for each slot level above
+      3rd.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: nec
+  materials:
+    value: Flint and steel
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: none
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: flash-fever
+sort: 0
+flags: {}
+img: icons/magic/fire/flame-burning-hand-brightened.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsFlashFever000'

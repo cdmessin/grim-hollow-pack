@@ -1,0 +1,124 @@
+_id: GHsLittleDeath00
+name: Little Death
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, you drop to 0 hit points and die. At the
+      start of your next turn, you become a ghost occupying the same space as
+      your corpse. You use the ghost's game statistics, retaining your
+      alignment and personality.</p><p>While you are a ghost, you can only use
+      abilities detailed in the ghost's game statistics. In addition, you add
+      your proficiency bonus to your attack rolls and the DC of saving throws
+      your ghost abilities force others to make.</p><p>Your DM secretly rolls
+      1d8 at the time of casting. After a number of hours have passed equal to
+      the result, the spell ends. The spell ends early if you are reduced to 0
+      hit points as a ghost or you use an action to do so. If the material
+      component used to cast this spell remains on your corpse, you return to
+      life with current hit points equal to half your maximum hit points. If
+      the material component used to cast this spell is no longer on your
+      corpse, you must make death saving throws as normal.</p><p>If your body
+      is destroyed or damaged beyond the capacity to survive while you are
+      under the effects of this spell, its duration becomes indefinite and you
+      remain a ghost until you are reduced to 0 hit points, destroyed by any
+      other effect, or your body is targeted by an effect that returns the
+      living to the dead such as raise dead or resurrection.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '8'
+    units: hour
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: nec
+  materials:
+    value: An item of personal sentimental value worth at least 1 sp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: little-death
+sort: 0
+flags: {}
+img: icons/magic/death/skull-shadow-dark-purple.webp
+effects: []
+folder: GHf5thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsLittleDeath00'

@@ -1,0 +1,116 @@
+_id: GHsConsumeMind00
+name: Consume Mind
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You consume the brain of another creature's corpse, gaining its
+      memories and knowledge. The corpse must have a brain and can't be undead.
+      The spell fails if the corpse has been dead (and not preserved) for more
+      than three days.</p><p>Until the spell ends, you can attempt to recall
+      any important fact known to the creature—family history, recent events,
+      building layouts, passwords, details of the creature's death, and
+      similar information. To recall a piece of information, you must make an
+      ability check using your spellcasting modifier. The DC is equal to the
+      corpse's Intelligence score.</p><p>Once the caster rolls to determine
+      whether they recall a fact, they cannot attempt to recall it again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: nec
+  materials:
+    value: A 1-ounce fresh or magically preserved portion of another creature's brain
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: consume-mind
+sort: 0
+flags: {}
+img: icons/magic/death/skull-humanoid-purple-pink.webp
+effects: []
+folder: GHf4thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsConsumeMind00'

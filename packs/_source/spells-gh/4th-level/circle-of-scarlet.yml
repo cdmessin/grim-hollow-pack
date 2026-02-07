@@ -1,0 +1,122 @@
+_id: GHsCircleScarlet
+name: Circle of Scarlet
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell, you must expend four hit dice or the
+      spell automatically fails. If you do, choose a point on the ground
+      within range and roll the expended hit dice. A crimson pillar erupts from
+      the ground in a 15-foot radius and 100-foot high cylinder centered on
+      the point you chose. Each creature within the cylinder must make a
+      Constitution saving throw. On a success, the creature takes necrotic
+      damage equal to the total of the expended hit dice. On a failure, the
+      creature takes necrotic damage equal to the total of the expended hit
+      dice and must expend and roll four hit dice of its own, taking additional
+      necrotic damage equal to the result.</p><p>For each creature who fails
+      the saving throw against this spell, you gain 5 temporary hit
+      points.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cylinder
+      size: '15'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: evo
+  materials:
+    value: A piece of parchment with a circle drawn in humanoid blood
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: circle-of-scarlet
+sort: 0
+flags: {}
+img: icons/magic/death/barrier-fire-red.webp
+effects: []
+folder: GHf4thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsCircleScarlet'

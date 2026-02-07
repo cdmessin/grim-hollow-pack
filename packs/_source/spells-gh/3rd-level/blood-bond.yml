@@ -1,0 +1,124 @@
+_id: GHsBloodBond0000
+name: Blood Bond
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell, you must expend three hit dice or the
+      spell automatically fails. If you do, roll the expended hit dice, and the
+      creature gains an equal number of temporary hit points.</p><p>For the
+      duration of the spell, you know the direction and distance to the
+      creature at all times, you and the creature can speak to one another
+      telepathically (provided the creature has an intelligence score of 3 or
+      higher), and you can target the creature with spells you cast that have a
+      range of Self or Touch. These benefits are suppressed while you and the
+      creature are not on the same plane.</p><p>At any point, a creature
+      affected by this spell can choose to end the spell early. If it does, the
+      creature loses all remaining temporary hit points granted by this spell
+      and takes necrotic damage equal to the temporary hit points
+      lost.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 5th or 6th level, its duration is 8 hours. When
+      you cast this spell using a spell slot of 7th or 8th level, its duration
+      is 24 hours. When you cast this spell using a spell slot of 9th level,
+      its duration is 7 days.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: enc
+  materials:
+    value: A rag soaked in your own blood
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: blood-bond
+sort: 0
+flags: {}
+img: icons/magic/death/hand-undead-connect-red.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsBloodBond0000'

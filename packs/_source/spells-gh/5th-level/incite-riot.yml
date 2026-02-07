@@ -1,0 +1,119 @@
+_id: GHsInciteRiot000
+name: Incite Riot
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, you wave the red handkerchief used as the
+      material component and choose any number of creatures within range that
+      can see you. Each target must succeed on a Wisdom saving throw or be
+      charmed by you until the spell ends or until you or your allies do
+      anything harmful to it. While charmed in this way, it must use its turn
+      to make unarmed strikes against the nearest creature (other than you) or
+      use its turn moving to the nearest target.</p><p>At the end of each of
+      its turns, an affected target can make a Wisdom saving throw. If it
+      succeeds, this effect ends for that target.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: enc
+  materials:
+    value: A red handkerchief
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: incite-riot
+sort: 0
+flags: {}
+img: icons/magic/fire/flame-burning-fist-strike.webp
+effects: []
+folder: GHf5thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsInciteRiot000'

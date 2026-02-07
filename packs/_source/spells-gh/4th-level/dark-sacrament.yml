@@ -1,0 +1,147 @@
+_id: GHsDarkSacrament
+name: Dark Sacrament
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell you must expend four hit dice or the
+      spell automatically fails. If you do, make a melee spell attack against a
+      creature within 5 feet using the material component of this spell. On a
+      hit, roll the hit dice expended casting this spell plus an additional 4d8
+      and deal necrotic damage equal to the result. If this damage causes the
+      creature to be reduced to 0 hit points, it immediately dies and you gain
+      one of the following dark blessings of your choice.</p><p><strong>
+      Unassailable.</strong> You have advantage on all saving
+      throws.</p><p><strong>Unbreakable.</strong> Your size increases by one
+      category (from Medium to Large, for example), you gain a number of
+      temporary hit points equal to your Constitution modifier (minimum 1) at
+      the start of each of your turns, and your weapon attacks deal an
+      additional 1d4 damage.</p><p><strong>Unerring.</strong> Your proficiency
+      bonus increases by 2.</p><p>Your dark blessing ends after 10 minutes or
+      when you are reduced to 0 hit points, whichever happens first. When you
+      take radiant damage while you have a dark blessing, you take an
+      additional 1d4 damage.</p><p><strong>At Higher Levels.</strong> When you
+      cast this spell using a spell slot of 5th level or higher, the melee
+      spell attack damage increases by 1d8 for each slot level above 4th.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: evo
+  materials:
+    value: A dagger encrusted in jewels worth at least 100 gp
+    consumed: false
+    cost: 100
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: dark-sacrament
+sort: 0
+flags: {}
+img: icons/magic/death/weapon-dagger-skull-purple.webp
+effects: []
+folder: GHf4thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsDarkSacrament'

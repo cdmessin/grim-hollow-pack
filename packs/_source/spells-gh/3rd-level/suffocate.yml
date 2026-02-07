@@ -1,0 +1,128 @@
+_id: GHsSuffocate0000
+name: Suffocate
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You create a pair of grasping hands made from invisible forces. Make a
+      spell attack against one creature that you can see within range. On a
+      hit, the creature is restrained as the hands crush their throat or bodily
+      equivalent.</p><p>If the creature requires air to breathe, it begins to
+      suffocate. A suffocating creature can survive for a number of rounds
+      equal to 1 + its Constitution modifier (minimum of 1 round). At the
+      start of its next turn after those rounds are over, it becomes
+      unconscious, and it can't regain hit points until it can breathe
+      again.</p><p>A conscious creature restrained by the hands can use its
+      action to make a Strength or Dexterity check (its choice) against your
+      spell save DC. On a success, the spell ends on the target.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: con
+  materials:
+    value: A leather glove
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: suffocate
+sort: 0
+flags: {}
+img: icons/magic/air/wind-swirl-gray-blue.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsSuffocate0000'

@@ -1,0 +1,122 @@
+_id: GHsReanimate0000
+name: Reanimate
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell you must expend three hit dice or the
+      spell automatically fails. If you do, you can touch a creature who has
+      died within the last 10 minutes and return it to life with 1 hit point.
+      In addition, roll the hit dice you expended casting this spell, and the
+      creature gains temporary hit points equal to the result.</p><p>At the
+      start of each of the target creature's turns, it loses 1 temporary hit
+      point granted by this spell. While the creature has any temporary hit
+      points granted by this spell it moves with unnatural vigor, gaining a +2
+      bonus to all ability checks, attack rolls, and saving throws. Once it
+      loses all remaining temporary hit points granted by this spell, the
+      creature gains a level of exhaustion.</p><p>This spell can't return to
+      life a creature who has died of old age, nor can it restore missing body
+      parts.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: nec
+  materials:
+    value: >-
+      A melange of wilted daisies and other herbal powders worth at least 300
+      gp, which this spell consumes
+    consumed: true
+    cost: 300
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: reanimate
+sort: 0
+flags: {}
+img: icons/magic/death/undead-skeleton-rags-green.webp
+effects: []
+folder: GHf3rdLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsReanimate0000'
