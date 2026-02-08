@@ -78,11 +78,68 @@ system:
     subtype: ''
   requirements: ''
   properties: []
+  advancement:
+    - _id: ghadv00disemb000
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.races-gh.GHrfFadeAway0000
+          - Compendium.grim-hollow-pack.races-gh.GHrfPlanarOut000
+          - Compendium.grim-hollow-pack.races-gh.GHrfArcaneOrig00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 0
+      title: Racial Features
   activities: {}
 sort: 0
 flags: {}
 img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
-effects: []
+effects:
+  - _id: GHrDisembodied01
+    name: Ability Score Increase
+    origin: Item.GHrDisembodied00
+    transfer: true
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: Your Intelligence score increases by 2, and your Dexterity score increases by 1.
+    statuses: []
+    changes:
+      - key: system.abilities.int.value
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.abilities.dex.value
+        mode: 2
+        value: '1'
+        priority: null
+    flags: {}
+    img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+    type: base
+    system: {}
+    sort: 0
+    _stats:
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 2.3.1
+      createdTime: 1738886400000
+      modifiedTime: 1738886400000
+      lastModifiedBy: ghPackBuilder0000
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!GHrDisembodied00.GHrDisembodied01'
 folder: null
 _stats:
   duplicateSource: null

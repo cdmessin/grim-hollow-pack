@@ -1,0 +1,94 @@
+_id: GHrfPlanarOut000
+name: Planar Outcast
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You have resistance to necrotic damage. Additionally, you have
+      advantage on saving throws against effects that would banish you to
+      another plane of existence.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: race
+    subtype: ''
+  requirements: The Disembodied
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple.webp
+effects:
+  - _id: GHrfPlanarOut001
+    name: Necrotic Resistance
+    origin: Item.GHrfPlanarOut000
+    transfer: true
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: You have resistance to necrotic damage.
+    statuses: []
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+        priority: null
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-purple.webp
+    type: base
+    system: {}
+    sort: 0
+    _stats:
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 2.3.1
+      createdTime: 1738886400000
+      modifiedTime: 1738886400000
+      lastModifiedBy: ghPackBuilder0000
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001'
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHrfPlanarOut000'
