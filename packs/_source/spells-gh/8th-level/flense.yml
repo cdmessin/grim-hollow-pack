@@ -109,7 +109,7 @@ system:
   identifier: flense
 sort: 0
 flags: {}
-img: icons/magic/fire/dagger-rune-enchant-blue-gray.webp
+img: icons/skills/melee/blood-slash-foam-red.webp
 effects: []
 folder: GHf8thLevelSpell
 _stats:

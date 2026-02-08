@@ -109,7 +109,7 @@ system:
   identifier: little-death
 sort: 0
 flags: {}
-img: icons/magic/control/debuff-energy-hold-levitate-pink.webp
+img: icons/magic/death/undead-ghost-scream-teal.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:

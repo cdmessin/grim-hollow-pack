@@ -117,7 +117,7 @@ system:
   identifier: steal-immortality
 sort: 0
 flags: {}
-img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
 effects: []
 folder: GHf9thLevelSpell
 _stats:

@@ -97,7 +97,7 @@ system:
   identifier: fiend-flesh
 sort: 0
 flags: {}
-img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
+img: icons/creatures/unholy/demon-fire-horned-winged-roar.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

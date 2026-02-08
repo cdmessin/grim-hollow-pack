@@ -113,7 +113,7 @@ system:
   identifier: spirit-swarm
 sort: 0
 flags: {}
-img: icons/magic/air/fog-gas-smoke-swirling-white.webp
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:

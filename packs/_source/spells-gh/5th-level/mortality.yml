@@ -110,7 +110,7 @@ system:
   identifier: mortality
 sort: 0
 flags: {}
-img: icons/magic/control/debuff-chains-ropes-red.webp
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:

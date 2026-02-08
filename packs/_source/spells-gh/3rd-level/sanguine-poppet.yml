@@ -111,7 +111,7 @@ system:
   identifier: sanguine-poppet
 sort: 0
 flags: {}
-img: icons/magic/control/debuff-energy-hold-pink.webp
+img: icons/magic/control/encase-creature-humanoid-hold.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

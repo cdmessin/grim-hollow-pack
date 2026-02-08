@@ -113,7 +113,7 @@ system:
   identifier: suffocate
 sort: 0
 flags: {}
-img: icons/magic/air/wind-swirl-gray-blue.webp
+img: icons/magic/control/debuff-chains-ropes-purple.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

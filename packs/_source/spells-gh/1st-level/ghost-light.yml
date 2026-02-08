@@ -99,7 +99,7 @@ system:
   identifier: ghost-light
 sort: 0
 flags: {}
-img: icons/magic/light/explosion-star-blue-small.webp
+img: icons/magic/light/orbs-hand-gray.webp
 effects: []
 folder: GHf1stLevelSpell
 _stats:

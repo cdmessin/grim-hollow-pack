@@ -102,7 +102,7 @@ system:
   identifier: sanguine-shield
 sort: 0
 flags: {}
-img: icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

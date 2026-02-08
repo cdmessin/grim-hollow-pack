@@ -107,7 +107,7 @@ system:
   identifier: reanimate
 sort: 0
 flags: {}
-img: icons/magic/unholy/strike-beam-blood-large-red-teal.webp
+img: icons/magic/death/undead-zombie-grave-green.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

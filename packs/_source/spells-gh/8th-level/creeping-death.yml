@@ -92,7 +92,7 @@ system:
   identifier: creeping-death
 sort: 0
 flags: {}
-img: icons/magic/control/debuff-chains-ropes-purple.webp
+img: icons/magic/death/skull-trio-badge-purple.webp
 effects: []
 folder: GHf8thLevelSpell
 _stats:

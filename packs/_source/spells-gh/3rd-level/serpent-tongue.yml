@@ -122,7 +122,7 @@ system:
   identifier: serpent-tongue
 sort: 0
 flags: {}
-img: icons/magic/control/fear-fright-monster-grin-green.webp
+img: icons/creatures/reptiles/serpent-horned-green.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

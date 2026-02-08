@@ -100,7 +100,7 @@ system:
   identifier: creeping-touch
 sort: 0
 flags: {}
-img: icons/magic/unholy/strike-beam-blood-red-teal.webp
+img: icons/creatures/webs/web-spider-glowing-purple.webp
 effects: []
 folder: GHf1stLevelSpell
 _stats:

@@ -103,7 +103,7 @@ system:
   identifier: heartseeker
 sort: 0
 flags: {}
-img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+img: icons/magic/life/heart-glowing-red.webp
 effects: []
 folder: GHf6thLevelSpell
 _stats:

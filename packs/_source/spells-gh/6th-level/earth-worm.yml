@@ -114,7 +114,7 @@ system:
   identifier: earth-worm
 sort: 0
 flags: {}
-img: icons/magic/earth/projectile-spiked-stone-boulder-orange.webp
+img: icons/creatures/slimes/slime-movement-pseudopod-green.webp
 effects: []
 folder: GHf6thLevelSpell
 _stats:

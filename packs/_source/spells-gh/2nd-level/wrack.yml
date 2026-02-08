@@ -102,7 +102,7 @@ system:
   identifier: wrack
 sort: 0
 flags: {}
-img: icons/magic/unholy/strike-beam-blood-red-gray.webp
+img: icons/skills/wounds/bone-broken-knee-beam.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

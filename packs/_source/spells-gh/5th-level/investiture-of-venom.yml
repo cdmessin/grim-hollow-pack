@@ -122,7 +122,7 @@ system:
   identifier: investiture-of-venom
 sort: 0
 flags: {}
-img: icons/skills/toxins/cup-goblet-poisoned-spilled.webp
+img: icons/creatures/abilities/stinger-poison-green.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:
