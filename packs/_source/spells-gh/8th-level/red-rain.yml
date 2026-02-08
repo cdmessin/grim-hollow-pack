@@ -65,7 +65,7 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Sangromancy
       duration:
         units: inst
         concentration: false
