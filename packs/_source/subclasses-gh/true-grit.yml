@@ -1,0 +1,66 @@
+_id: GHcfTrueGrit0000
+name: True Grit
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 13th level, when you are reduced to 0 hit points but not
+      killed outright, you can make a single weapon attack as a reaction before
+      falling unconscious. If this attack hits, you regain hit points equal to
+      twice your rogue level.</p>
+      <p>Once you use this feature, you can't use it again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When reduced to 0 hit points but not killed outright
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 5
+    units: ft
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Highway Rider 13
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/skills/melee/strike-sword-slashing-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfTrueGrit0000'

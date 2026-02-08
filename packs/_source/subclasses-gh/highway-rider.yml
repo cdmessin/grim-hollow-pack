@@ -10,59 +10,6 @@ system:
       daring outlaw or frontier scout who strikes fast and rides hard. These
       rogues are expert mounted combatants, using speed and surprise to
       outmaneuver their foes before vanishing into the dust.</p>
-
-      <h3>Hair Trigger</h3>
-      <p><em>3rd-level Highway Rider feature</em></p>
-      <p>When you choose this archetype at 3rd level, you gain proficiency with
-      martial ranged weapons. Additionally, you can draw or stow up to two
-      weapons as part of each of your turns (instead of one), and being within
-      5 feet of a hostile creature doesn't impose disadvantage on your ranged
-      attack rolls.</p>
-
-      <h3>Trusty Mount</h3>
-      <p><em>3rd-level Highway Rider feature</em></p>
-      <p>At 3rd level, you gain a loyal mount. You can spend 8 hours bonding
-      with a horse or similar beast. While bonded, the mount gains hit points
-      equal to your rogue level x 3, and it adds your proficiency bonus to
-      its AC and saving throws. If your mount dies, you can bond with a new
-      one after a long rest. While mounted on your bonded mount, you can use
-      your Cunning Action to command the mount to take the Dash, Disengage,
-      or Dodge action.</p>
-
-      <h3>Ride Them Down</h3>
-      <p><em>3rd-level Highway Rider feature</em></p>
-      <p>Starting at 3rd level, if your mount moves at least 20 feet straight
-      toward a creature before you make a melee weapon attack against it on
-      the same turn, the attack deals an extra 1d6 damage. This extra damage
-      can be combined with your Sneak Attack. Additionally, the target must
-      succeed on a Strength saving throw (DC equal to 8 + your proficiency
-      bonus + your Dexterity modifier) or be knocked prone.</p>
-
-      <h3>Horse Lord</h3>
-      <p><em>9th-level Highway Rider feature</em></p>
-      <p>At 9th level, while mounted on your bonded mount, you have advantage
-      on melee attack rolls against any unmounted creature that is smaller
-      than your mount. Additionally, when your mount is subjected to an effect
-      that allows it to make a Dexterity saving throw to take only half damage,
-      it instead takes no damage if it succeeds on the saving throw, and only
-      half damage if it fails. Your mount's speed also increases by 10
-      feet.</p>
-
-      <h3>True Grit</h3>
-      <p><em>13th-level Highway Rider feature</em></p>
-      <p>Beginning at 13th level, when you are reduced to 0 hit points but not
-      killed outright, you can make a single weapon attack as a reaction before
-      falling unconscious. If this attack hits, you regain hit points equal to
-      twice your rogue level. Once you use this feature, you can't use it again
-      until you finish a long rest.</p>
-
-      <h3>Desperado</h3>
-      <p><em>17th-level Highway Rider feature</em></p>
-      <p>At 17th level, you can take two turns during the first round of any
-      combat. You take your first turn at your normal initiative and your
-      second turn at your initiative minus 10. Additionally, while mounted,
-      opportunity attacks against you and your mount are made with
-      disadvantage.</p>
     chat: ''
   source:
     custom: ''
@@ -72,7 +19,69 @@ system:
     rules: '2014'
   identifier: highway-rider
   classIdentifier: rogue
-  advancement: []
+  advancement:
+    - _id: ghadv00highway003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfHairTrigger0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfTrustyMount0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfRideThemDown
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadv00highway009
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfHorseLord000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 9
+      title: Features
+    - _id: ghadv00highway013
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfTrueGrit0000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 13
+      title: Features
+    - _id: ghadv00highway017
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfDesperado000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Features
   spellcasting:
     progression: none
     ability: ''

@@ -1,0 +1,62 @@
+_id: GHcfFullBlooded0
+name: Full-Blooded
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, when you expend hit dice as part of casting a
+      spell, you can add your Intelligence modifier to the number of hit points
+      you regain from each hit die spent (minimum of 1). Additionally, when you
+      cast a spell of 1st level or higher that deals necrotic damage or restores
+      hit points, you can expend one hit die, rolling it and regaining hit
+      points equal to the result plus your Intelligence modifier.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: special
+    condition: When you cast a spell of 1st level or higher that deals necrotic damage or restores hit points
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Sangromancy 2
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/life/heart-cross-purple-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfFullBlooded0'

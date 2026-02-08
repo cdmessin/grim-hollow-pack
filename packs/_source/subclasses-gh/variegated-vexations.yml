@@ -1,0 +1,62 @@
+_id: GHcfVariegatVex0
+name: Variegated Vexations
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 11th level, your poisons become supernaturally potent. When you use
+      your Envenomed Attack feature, you can choose to change the damage type
+      from poison to acid or necrotic.</p>
+      <p>Additionally, creatures poisoned by your Envenomed Attack have
+      disadvantage on Constitution saving throws to maintain concentration on
+      spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Green Reaper 11
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/skills/toxins/poison-bottle-smoke-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfVariegatVex0'

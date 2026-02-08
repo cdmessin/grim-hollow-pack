@@ -1,0 +1,62 @@
+_id: GHcfRedRenewal00
+name: Red Renewal
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 14th level, when you finish a short rest, you regain a
+      number of expended hit dice equal to half your wizard level (rounded
+      down), in addition to any hit dice you would normally regain.</p>
+      <p>Furthermore, when you cast a wizard spell of 5th level or lower that
+      has a casting time of one action, you can expend two hit dice to cast it
+      as a bonus action instead.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: special
+    condition: On a short rest, or when casting a wizard spell of 5th level or lower
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Sangromancy 14
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/life/cross-area-circle-red-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfRedRenewal00'

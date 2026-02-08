@@ -1,0 +1,115 @@
+_id: GHcfEnvenomAtk00
+name: Envenomed Attack
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you learn to harvest and apply natural venoms to your
+      weapons. As a bonus action, you can apply poison to a weapon or piece
+      of ammunition. The next time you hit a creature with that weapon or
+      ammunition, the creature takes an extra 1d6 poison damage and must
+      succeed on a Constitution saving throw against your ranger spell save
+      DC or be poisoned until the end of your next turn.</p>
+      <p>The extra damage increases to 2d6 at 11th level.</p>
+      <p>You can use this feature a number of times equal to your Wisdom
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '@abilities.wis.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Green Reaper 3
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: bonus
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Apply venom to a weapon
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        critical:
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+sort: 0
+flags: {}
+img: icons/skills/toxins/blade-drip-poison-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfEnvenomAtk00'

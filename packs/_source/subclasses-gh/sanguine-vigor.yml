@@ -1,0 +1,60 @@
+_id: GHcfSangVigor00
+name: Sanguine Vigor
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 6th level, when you are reduced to half your hit point
+      maximum or fewer, you gain a bonus to your spell save DC and spell attack
+      rolls equal to +1. This bonus increases to +2 when you are at or below
+      one quarter of your hit point maximum.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: special
+    condition: When reduced to half hit point maximum or fewer
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Sangromancy 6
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/life/heart-shadow-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfSangVigor00'

@@ -1,0 +1,5 @@
+2026/02/07-18:19:28.520172 16df2b000 Delete type=3 #1
+2026/02/07-18:19:28.521697 16f7db000 Level-0 table #5: started
+2026/02/07-18:19:28.521983 16f7db000 Level-0 table #5: 13758 bytes OK
+2026/02/07-18:19:28.522055 16f7db000 Delete type=0 #3
+2026/02/07-18:19:28.522099 16f7db000 Manual compaction at level-0 from '!folders!GHfAdvancedWeapon' @ 72057594037927935 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at (end)

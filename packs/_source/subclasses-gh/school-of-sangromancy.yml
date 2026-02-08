@@ -10,47 +10,6 @@ system:
       blood. Sangromancers learn to harness their own vitality as a source of
       magical power, fueling their spells with life force and gaining mastery
       over the crimson fluid that flows through all living creatures.</p>
-
-      <h3>Sangromancy Savant</h3>
-      <p><em>2nd-level School of Sangromancy feature</em></p>
-      <p>Beginning when you select this school at 2nd level, the gold and time
-      you must spend to copy a spell from the necromancy or transmutation school
-      into your spellbook is halved.</p>
-
-      <h3>Full-Blooded</h3>
-      <p><em>2nd-level School of Sangromancy feature</em></p>
-      <p>Starting at 2nd level, when you expend hit dice as part of casting a
-      spell, you can add your Intelligence modifier to the number of hit points
-      you regain from each hit die spent (minimum of 1). Additionally, when you
-      cast a spell of 1st level or higher that deals necrotic damage or restores
-      hit points, you can expend one hit die, rolling it and regaining hit
-      points equal to the result plus your Intelligence modifier.</p>
-
-      <h3>Sanguine Vigor</h3>
-      <p><em>6th-level School of Sangromancy feature</em></p>
-      <p>Beginning at 6th level, when you are reduced to half your hit point
-      maximum or fewer, you gain a bonus to your spell save DC and spell attack
-      rolls equal to +1. This bonus increases to +2 when you are at or below
-      one quarter of your hit point maximum.</p>
-
-      <h3>Blood for Blood</h3>
-      <p><em>10th-level School of Sangromancy feature</em></p>
-      <p>Starting at 10th level, when a creature within 60 feet of you that you
-      can see takes damage, you can use your reaction to expend a hit die.
-      Roll the hit die and add your Intelligence modifier; the creature takes
-      additional necrotic damage equal to the total. You regain hit points equal
-      to half the necrotic damage dealt (rounded down). You can use this feature
-      a number of times equal to your Intelligence modifier (minimum of once),
-      and you regain all expended uses when you finish a long rest.</p>
-
-      <h3>Red Renewal</h3>
-      <p><em>14th-level School of Sangromancy feature</em></p>
-      <p>Beginning at 14th level, when you finish a short rest, you regain a
-      number of expended hit dice equal to half your wizard level (rounded
-      down), in addition to any hit dice you would normally regain. Furthermore,
-      when you cast a wizard spell of 5th level or lower that has a casting time
-      of one action, you can expend two hit dice to cast it as a bonus action
-      instead.</p>
     chat: ''
   source:
     custom: ''
@@ -60,7 +19,68 @@ system:
     rules: '2014'
   identifier: school-of-sangromancy
   classIdentifier: wizard
-  advancement: []
+  advancement:
+    - _id: ghadv00sangro002
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSangSavant00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfFullBlooded0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: Features
+    - _id: ghadv00sangro006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSangVigor00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadv00sangro010
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBlood4Blood0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: Features
+    - _id: ghadv00sangro014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfRedRenewal00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
   spellcasting:
     progression: none
     ability: ''

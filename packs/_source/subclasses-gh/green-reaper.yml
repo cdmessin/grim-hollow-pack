@@ -11,69 +11,6 @@ system:
       experts in toxicology, using their knowledge of plants, fungi, and
       venomous creatures to coat their weapons and craft deadly concoctions
       that weaken and destroy their prey.</p>
-
-      <h3>Green Reaper Magic</h3>
-      <p><em>3rd-level Green Reaper feature</em></p>
-      <p>Starting at 3rd level, you learn an additional spell when you reach
-      certain levels in this class. The spell counts as a ranger spell for
-      you, but it doesn't count against the number of ranger spells you
-      know.</p>
-      <table>
-      <thead><tr><th>Ranger Level</th><th>Spell</th></tr></thead>
-      <tbody>
-      <tr><td>3rd</td><td><em>Ray of Sickness</em></td></tr>
-      <tr><td>5th</td><td><em>Protection from Poison</em></td></tr>
-      <tr><td>9th</td><td><em>Stinking Cloud</em></td></tr>
-      <tr><td>13th</td><td><em>Vitriolic Sphere</em></td></tr>
-      <tr><td>17th</td><td><em>Cloudkill</em></td></tr>
-      </tbody>
-      </table>
-
-      <h3>Envenomed Attack</h3>
-      <p><em>3rd-level Green Reaper feature</em></p>
-      <p>At 3rd level, you learn to harvest and apply natural venoms to your
-      weapons. As a bonus action, you can apply poison to a weapon or piece
-      of ammunition. The next time you hit a creature with that weapon or
-      ammunition, the creature takes an extra 1d6 poison damage and must
-      succeed on a Constitution saving throw against your ranger spell save
-      DC or be poisoned until the end of your next turn. The extra damage
-      increases to 2d6 at 11th level. You can use this feature a number of
-      times equal to your Wisdom modifier (minimum of once), and you regain
-      all expended uses when you finish a long rest.</p>
-
-      <h3>Toxic Tradecraft</h3>
-      <p><em>3rd-level Green Reaper feature</em></p>
-      <p>Also at 3rd level, you gain proficiency with the poisoner's kit. If
-      you already have this proficiency, you gain proficiency with the
-      herbalism kit instead. You have advantage on saving throws against being
-      poisoned, and you have resistance to poison damage.</p>
-
-      <h3>Poison Control</h3>
-      <p><em>7th-level Green Reaper feature</em></p>
-      <p>Beginning at 7th level, when you deal poison damage to a creature that
-      is resistant to poison damage, you can ignore that resistance. If a
-      creature is immune to poison damage, it is treated as having resistance
-      instead (which you then ignore). Additionally, when a creature fails its
-      saving throw against your Envenomed Attack, you can choose one of the
-      following additional effects: its speed is halved until the end of your
-      next turn, it can't take reactions until the end of your next turn, or
-      it has disadvantage on the next ability check it makes before the end
-      of your next turn.</p>
-
-      <h3>Variegated Vexations</h3>
-      <p><em>11th-level Green Reaper feature</em></p>
-      <p>At 11th level, your poisons become supernaturally potent. When you use
-      your Envenomed Attack feature, you can choose to change the damage type
-      from poison to acid or necrotic. Additionally, creatures poisoned by your
-      Envenomed Attack have disadvantage on Constitution saving throws to
-      maintain concentration on spells.</p>
-
-      <h3>Pain Tolerance</h3>
-      <p><em>15th-level Green Reaper feature</em></p>
-      <p>Starting at 15th level, you become immune to the poisoned condition
-      and to poison damage. Additionally, when a creature fails its saving
-      throw against your Envenomed Attack by 5 or more, it is also stunned
-      until the end of your next turn.</p>
     chat: ''
   source:
     custom: ''
@@ -83,7 +20,69 @@ system:
     rules: '2014'
   identifier: green-reaper
   classIdentifier: ranger
-  advancement: []
+  advancement:
+    - _id: ghadv00greaper003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfGRMagic00000
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfEnvenomAtk00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfToxicTrade00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadv00greaper007
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPoisonCtrl00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 7
+      title: Features
+    - _id: ghadv00greaper011
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfVariegatVex0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 11
+      title: Features
+    - _id: ghadv00greaper015
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPainToleranc
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 15
+      title: Features
   spellcasting:
     progression: none
     ability: ''

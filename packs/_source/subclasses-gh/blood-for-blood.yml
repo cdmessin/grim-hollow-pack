@@ -1,0 +1,114 @@
+_id: GHcfBlood4Blood0
+name: Blood for Blood
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, when a creature within 60 feet of you that you
+      can see takes damage, you can use your reaction to expend a hit die.
+      Roll the hit die and add your Intelligence modifier; the creature takes
+      additional necrotic damage equal to the total. You regain hit points equal
+      to half the necrotic damage dealt (rounded down).</p>
+      <p>You can use this feature a number of times equal to your Intelligence
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When a creature within 60 feet that you can see takes damage
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 60
+    units: ft
+  uses:
+    max: '@abilities.int.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Sangromancy 10
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: reaction
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Expend a hit die to deal necrotic damage and heal
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        critical:
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: '@abilities.int.mod'
+            types:
+              - necrotic
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+sort: 0
+flags: {}
+img: icons/magic/unholy/strike-beam-blood-red-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfBlood4Blood0'

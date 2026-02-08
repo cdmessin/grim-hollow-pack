@@ -1,0 +1,64 @@
+_id: GHcfTrustyMount0
+name: Trusty Mount
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you gain a loyal mount. You can spend 8 hours bonding
+      with a horse or similar beast. While bonded, the mount gains hit points
+      equal to your rogue level x 3, and it adds your proficiency bonus to
+      its AC and saving throws. If your mount dies, you can bond with a new
+      one after a long rest.</p>
+      <p>While mounted on your bonded mount, you can use your Cunning Action
+      to command the mount to take the Dash, Disengage, or Dodge action.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: While mounted on your bonded mount, use Cunning Action
+    value: 1
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Highway Rider 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/environment/creatures/horse-brown.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfTrustyMount0'
