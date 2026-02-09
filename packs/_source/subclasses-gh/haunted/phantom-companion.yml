@@ -1,0 +1,62 @@
+_id: GHcfPhantomComp0
+name: Phantom Companion
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, you are haunted by a phantom entity that only you can perceive. The phantom is incorporeal and cannot be harmed or interact with physical objects. As an action, you can command your phantom to perform one of the following tasks:</p>
+      <ul>
+      <li><strong>Scout:</strong> The phantom travels up to 100 feet in any direction and reports back what it sees and hears.</li>
+      <li><strong>Deliver Touch Spell:</strong> When you cast a spell with a range of touch, the phantom can deliver the spell from its location within 30 feet of you.</li>
+      <li><strong>Help:</strong> The phantom provides the Help action to a creature within 5 feet of it.</li>
+      </ul>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Haunted 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/death/undead-ghost-strike-white.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPhantomComp0'

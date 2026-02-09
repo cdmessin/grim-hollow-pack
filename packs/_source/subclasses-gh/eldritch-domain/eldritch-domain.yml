@@ -1,0 +1,117 @@
+_id: GHcEldritchDom00
+name: Eldritch Domain
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>The Eldritch Domain taps into the alien, unknowable forces beyond the
+      stars. Clerics of this domain channel the unpredictable power of eldritch
+      entities, blending divine faith with otherworldly madness to wield magic
+      that defies conventional understanding.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: eldritch-domain
+  classIdentifier: cleric
+  advancement:
+    - _id: ghadvEldDom00001
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfEldDomSpells
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfUnpredInsp00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfEldritchCont
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+      title: Features
+    - _id: ghadvEldDom00002
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfProphcyDoom0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: Features
+    - _id: ghadvEldDom00006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfOthwrldCalm0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvEldDom00008
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPotntSpllcst
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 8
+      title: Features
+    - _id: ghadvEldDom00017
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSingTheSong0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcEldritchDom00'

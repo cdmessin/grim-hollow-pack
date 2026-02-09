@@ -1,0 +1,63 @@
+_id: GHcfUnfortunist0
+name: Unfortunist
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, when a creature you can see within 30 feet rolls a
+      natural 1 on an attack roll, ability check, or saving throw, you can use
+      your reaction to impose a misfortune upon it.</p>
+      <p>Choose one: the creature falls prone, drops what it's holding, or is
+      blinded until the end of its next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When a creature within 30 ft rolls a natural 1
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Misfortune Bringer 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/unholy/projectile-bolt-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfUnfortunist0'

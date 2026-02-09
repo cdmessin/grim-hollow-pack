@@ -1,0 +1,101 @@
+_id: GHcCircleBlood00
+name: Circle of Blood
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Druids of the Circle of Blood tap into the primal power of vitality and
+      life force that flows through all living creatures. These druids understand
+      that blood is the essence of nature's cycle—life, death, and rebirth—and they
+      wield it with terrible purpose.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: circle-of-blood
+  classIdentifier: druid
+  advancement:
+    - _id: ghadvCircBld0002
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBloodSpells0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBloodBoon000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: Features
+    - _id: ghadvCircBld0006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfRiteBlodMoon
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvCircBld0010
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBloodLust000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: Features
+    - _id: ghadvCircBld0014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBloodElemntl
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/life/heart-cross-strong-flame-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcCircleBlood00'

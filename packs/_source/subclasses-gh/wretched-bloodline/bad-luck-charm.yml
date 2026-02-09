@@ -1,0 +1,67 @@
+_id: GHcfBadLuckChrm0
+name: Bad Luck Charm
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you have mastered the ability to temporarily
+      cast a small fragment of your curse onto another. As a bonus action,
+      choose a creature you can see within 30 feet. The chosen creature has
+      disadvantage on the next ability check, attack roll, or saving throw it
+      makes.</p>
+      <p>Once you use this feature, you can't do so again until you finish a
+      short or long rest, unless you spend 1 sorcery point to use it again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    units: ft
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Wretched Bloodline 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/unholy/projectile-bolt-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfBadLuckChrm0'

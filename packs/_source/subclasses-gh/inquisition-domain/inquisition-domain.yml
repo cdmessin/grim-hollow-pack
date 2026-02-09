@@ -1,0 +1,140 @@
+_id: GHcInquisition00
+name: Inquisition Domain
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Clerics of the Inquisition Domain are relentless hunters of heresy and
+      dark magic. Armed with martial prowess and divine authority, they root out
+      spellcasters who abuse their power and protect the faithful from
+      supernatural threats.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: inquisition-domain
+  classIdentifier: cleric
+  advancement:
+    - _id: ghadvInqDom00001
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfInqDomSpells
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBonusProfInq
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfWitchHunter0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+      title: Features
+    - _id: ghadvInqTrWeapon
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:mar
+        choices: []
+      value: {}
+      level: 1
+      title: Martial Weapon Proficiency
+    - _id: ghadvInqTrArmor
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:hvy
+        choices: []
+      value: {}
+      level: 1
+      title: Heavy Armor Proficiency
+    - _id: ghadvInqDom00002
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSpellShield0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: Features
+    - _id: ghadvInqDom00008
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfDivineStrke0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 8
+      title: Features
+    - _id: ghadvInqScaleDmg
+      type: ScaleValue
+      configuration:
+        identifier: divine-strike
+        type: dice
+        distance:
+          units: ''
+        scale:
+          8:
+            number: 1
+            faces: 8
+          14:
+            number: 2
+            faces: 8
+      value: {}
+      title: Divine Strike
+    - _id: ghadvInqDom00017
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSuprnlSfgrd0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/holy/prayer-ringed-aura-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcInquisition00'

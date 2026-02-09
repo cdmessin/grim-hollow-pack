@@ -1,0 +1,69 @@
+_id: GHcfVengefulSmmn
+name: Vengeful Summons
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 18th level, your magic has become powerful enough that
+      you can call and command a servant aligned with the being that cursed
+      your ancestor. As an action, you can spend 5 sorcery points to summon a
+      creature related to your Blood Ties choice (a fey creature, fiend, or
+      undead of CR 6 or lower). The creature appears in an unoccupied space
+      within 30 feet, is friendly to you and your allies, and obeys your
+      commands. It remains for 1 hour, until reduced to 0 hit points, or until
+      you dismiss it (no action required).</p>
+      <p>Once you use this feature, you can't do so again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: space
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    units: ft
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Wretched Bloodline 18
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/unholy/hand-claw-glow-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfVengefulSmmn'

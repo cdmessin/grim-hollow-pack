@@ -1,0 +1,98 @@
+_id: GHcLeadenCrown00
+name: Way of the Leaden Crown
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Monks of the Way of the Leaden Crown have unlocked the psionic potential of their minds. Through rigorous mental discipline, they project telekinetic force and psychic energy, controlling the battlefield with invisible power while crushing their enemies' minds.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: way-of-the-leaden-crown
+  classIdentifier: monk
+  advancement:
+    - _id: ghadvLdnCrwn003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSubtleHand00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPsionicProw0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvLdnCrwn006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfUnsubtlStrk0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvLdnCrwn011
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPsychCrush00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 11
+      title: Features
+    - _id: ghadvLdnCrwn017
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPsionicMstr0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcLeadenCrown00'

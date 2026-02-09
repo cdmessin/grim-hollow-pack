@@ -1,0 +1,58 @@
+_id: GHcfSymbioticSnt
+name: Symbiotic Sentinel
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 6th level, the parasite provides a protective layer around your body. You gain a +1 bonus to AC. Additionally, when you take damage from an attack, you can use your reaction to reduce the damage by 1d8 + your Charisma modifier.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When you take damage from an attack
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: The Parasite 6
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/defensive/shield-barrier-glowing-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfSymbioticSnt'

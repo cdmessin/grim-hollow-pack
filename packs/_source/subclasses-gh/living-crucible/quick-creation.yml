@@ -1,0 +1,63 @@
+_id: GHcfQuickCreate0
+name: Quick Creation
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 7th level, you can use a bonus action to create one compound during
+      combat, provided you have your alchemist's supplies on your person. Once
+      you use this feature, you can't do so again until you finish a short or
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Living Crucible 7
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/tools/laboratory/flask-round-exo-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfQuickCreate0'

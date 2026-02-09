@@ -1,0 +1,101 @@
+_id: GHcFractured0000
+name: Path of the Fractured
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>The Path of the Fractured is followed by barbarians with a dual
+      nature—a civilized mind and a savage beast constantly warring within.
+      When they rage, their very face transforms, reflecting the primal fury
+      that lies beneath the surface.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: path-of-the-fractured
+  classIdentifier: barbarian
+  advancement:
+    - _id: ghadvFracturd003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfFaceOfRage00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfMaskCivlty00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvFracturd006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBrainsNBrawn
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvFracturd010
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfCunningBrutl
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: Features
+    - _id: ghadvFracturd014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBetterHalf00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/skills/melee/strike-body-fire-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcFractured0000'

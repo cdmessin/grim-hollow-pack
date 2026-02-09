@@ -1,0 +1,94 @@
+_id: GHcfPotionCraft0
+name: Potion Craft
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 2nd level, you gain proficiency with the herbalism kit and
+      poisoner's kit if you don't already have them.</p>
+      <p>During a long rest, you can use your herbalism kit or poisoner's kit
+      to create a number of potions equal to your Intelligence modifier (minimum
+      of 1). Choose from the following:</p>
+      <ul>
+      <li><strong>Healing Draught:</strong> A creature that drinks this potion
+      regains hit points equal to 2d4 + your Intelligence modifier.</li>
+      <li><strong>Antidote:</strong> A creature that drinks this potion ends the
+      poisoned condition and gains immunity to poison for 1 hour.</li>
+      <li><strong>Poison Vial:</strong> As an action, throw at a creature within
+      20 feet. The creature takes 2d6 poison damage (Constitution save for half)
+      against your wizard spell save DC.</li>
+      </ul>
+      <p>Potions created in this way lose potency after 24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Plague Doctor 2
+  properties: []
+  activities: {}
+  advancement:
+    - _id: ghadvPlgDocHerb0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:herb
+        choices: []
+      value: {}
+      level: 2
+      title: Herbalism Kit Proficiency
+    - _id: ghadvPlgDocPois0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:pois
+        choices: []
+      value: {}
+      level: 2
+      title: Poisoner's Kit Proficiency
+sort: 0
+flags: {}
+img: icons/tools/laboratory/vials-blue-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPotionCraft0'

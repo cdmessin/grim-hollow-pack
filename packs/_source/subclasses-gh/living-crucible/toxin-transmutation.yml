@@ -1,0 +1,63 @@
+_id: GHcfToxinTransm0
+name: Toxin Transmutation
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 15th level, when you are subjected to poison damage or the poisoned
+      condition, you can use your reaction to negate the effect and instead
+      create one compound of your choice. Once you use this feature, you can't
+      do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When subjected to poison damage or poisoned condition
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Living Crucible 15
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/skills/toxins/poison-bottle-smoke-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfToxinTransm0'

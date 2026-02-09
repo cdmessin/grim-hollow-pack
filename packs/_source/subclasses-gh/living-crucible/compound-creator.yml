@@ -1,0 +1,79 @@
+_id: GHcfCompoundCrt0
+name: Compound Creator
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you learn to create alchemical compounds. You know 3
+      compound recipes chosen from the list below and learn 1 additional recipe
+      at 7th, 10th, 15th, and 18th level. During a long rest, you can create a
+      number of compounds equal to your proficiency bonus. Compounds lose
+      potency after 24 hours.</p>
+      <p><strong>Compounds:</strong></p>
+      <ul>
+      <li><strong>Acidic Compound:</strong> As an action, throw at a creature
+      within 20 ft. Target takes 2d6 acid damage (save for half, DC = 8 + prof
+      + Con mod).</li>
+      <li><strong>Fortifying Compound:</strong> As a bonus action, drink to gain
+      temporary hit points equal to 1d8 + Constitution modifier.</li>
+      <li><strong>Incendiary Compound:</strong> As an action, throw at a point
+      within 20 ft. Each creature in a 5-foot radius takes 2d6 fire damage (save
+      for half).</li>
+      <li><strong>Smoke Compound:</strong> As an action, throw at a point within
+      20 ft. Creates a 10-foot radius of heavy obscurement for 1 minute.</li>
+      <li><strong>Toxic Compound:</strong> As an action, throw at a creature
+      within 20 ft. Target takes 2d6 poison damage and must save or be poisoned
+      for 1 minute.</li>
+      <li><strong>Curative Compound:</strong> As a bonus action, drink to regain
+      hit points equal to 2d4 + Constitution modifier.</li>
+      </ul>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Living Crucible 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/tools/laboratory/vials-blue-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfCompoundCrt0'

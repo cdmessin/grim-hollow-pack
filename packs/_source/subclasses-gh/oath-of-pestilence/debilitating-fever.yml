@@ -1,0 +1,64 @@
+_id: GHcfDebilFever00
+name: 'Channel Divinity: Debilitating Fever'
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>As an action, you can use your Channel Divinity to afflict a creature.
+      Choose a creature you can see within 60 feet of you. It must succeed on a
+      Constitution saving throw or have its speed halved and disadvantage on
+      Dexterity checks and saving throws for 1 minute. The creature can repeat
+      the saving throw at the end of each of its turns, ending the effect on a
+      success.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: channelDivinity
+  requirements: Oath of Pestilence 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/death/projectile-beam-skull-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfDebilFever00'

@@ -1,0 +1,62 @@
+_id: GHcfSingTheSong0
+name: Sing the Song
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 17th level, the eldritch song of your patron reverberates through
+      you. You can cast one warlock spell of 5th level or lower without
+      expending a spell slot. Once you use this feature, you can't use it again
+      until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Eldritch Domain 17
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/control/voodoo-doll-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfSingTheSong0'

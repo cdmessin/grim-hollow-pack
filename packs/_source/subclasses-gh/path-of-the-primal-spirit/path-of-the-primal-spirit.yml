@@ -1,0 +1,101 @@
+_id: GHcPrimalSpirit0
+name: Path of the Primal Spirit
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Barbarians who follow the Path of the Primal Spirit forge a deep
+      connection with the wild, bonding with a primal spirit companion that
+      embodies the savage power of nature. Together, barbarian and beast fight
+      as one, channeling rage through an unbreakable bond.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: path-of-the-primal-spirit
+  classIdentifier: barbarian
+  advancement:
+    - _id: ghadvPrmlSprt003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPrimalComp00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSharedRage00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvPrmlSprt006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfKinToBeasts0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvPrmlSprt010
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSkinriderTrn
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: Features
+    - _id: ghadvPrmlSprt014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfShapeOfWild0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/creatures/mammals/wolf-howl-moon-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcPrimalSpirit0'

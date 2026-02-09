@@ -1,0 +1,66 @@
+_id: GHcfShapeOfWild0
+name: Shape of the Wild
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You can use a bonus action to merge with your primal companion,
+      physically transforming into a powerful hybrid form for 1 minute. In this
+      form, you gain the benefits of your companion's Kin to Beasts feature,
+      your melee weapon attacks deal an extra 1d6 damage of the weapon's type,
+      and you gain 30 temporary hit points.</p>
+      <p>Once you use this feature, you can't do so again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Path of the Primal Spirit 14
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/creatures/abilities/wolf-howl-moon-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfShapeOfWild0'

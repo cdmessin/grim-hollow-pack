@@ -1,0 +1,101 @@
+_id: GHcPlagueDoctor0
+name: Plague Doctor
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>The Plague Doctor is a wizard who has devoted their arcane studies to
+      the mastery of disease, poison, and medicine. They craft potions and
+      antidotes, wield pestilence as a weapon, and blur the line between healer
+      and harbinger of plague.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: plague-doctor
+  classIdentifier: wizard
+  advancement:
+    - _id: ghadvPlgDoc00002
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPotionCraft0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfGoodMedicn00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: Features
+    - _id: ghadvPlgDoc00006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBadMedicin00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvPlgDoc00010
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBreatheItIn0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: Features
+    - _id: ghadvPlgDoc00014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfMedicinlMstr
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/tools/laboratory/mortar-stone-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcPlagueDoctor0'

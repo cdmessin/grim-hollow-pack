@@ -1,0 +1,67 @@
+_id: GHcfEvilEye00000
+name: Evil Eye
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can curse a creature you can see within 30 feet
+      of you. Choose one: the creature has disadvantage on its next ability
+      check, attack roll, or saving throw (your choice). The curse lasts until
+      the end of your next turn or until triggered.</p>
+      <p>You can use this feature a number of times equal to your Charisma
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: turn
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    units: ft
+  uses:
+    max: '@abilities.cha.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Misfortune Bringer 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfEvilEye00000'

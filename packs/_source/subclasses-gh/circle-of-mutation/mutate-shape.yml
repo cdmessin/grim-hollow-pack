@@ -1,0 +1,87 @@
+_id: GHcfMutateShape0
+name: Mutate Shape
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 2nd level, you can use a bonus action to use your Wild Shape. While
+      transformed by Wild Shape, you can use a bonus action to expend a spell slot
+      and gain mutation points equal to the spell slot's level. These points last
+      until spent or until your Wild Shape ends. You can expend mutation points to
+      select mutations from the list below (no action required).</p>
+      <p><strong>Mutations:</strong></p>
+      <ul>
+      <li><strong>Creature of the Sea (1 point):</strong> You can breathe air and
+      water, and gain a 30 ft swim speed. For 1 additional point, your swim speed
+      becomes 60 ft.</li>
+      <li><strong>Creature of the Sky (3 points):</strong> You gain a 30 ft fly
+      speed. For 2 additional points, your fly speed becomes 60 ft.</li>
+      <li><strong>Darkvision (1 point):</strong> You gain darkvision out to 60
+      feet.</li>
+      <li><strong>Echolocation (4 points):</strong> You gain blindsight out to 30
+      feet while you are not deafened.</li>
+      <li><strong>Enchanted Attacks (1 point):</strong> Your attacks count as magical
+      for the purpose of overcoming resistance and immunity to nonmagical attacks and
+      damage.</li>
+      <li><strong>Enlarge (2 points):</strong> You grow one size larger. Your attacks
+      deal 1d4 extra damage.</li>
+      <li><strong>Multiattack (3 points):</strong> You can make one additional attack
+      when you take the Attack action.</li>
+      <li><strong>Mutated Armor (1 point):</strong> Your AC increases by 2.</li>
+      <li><strong>Reduce (1 point):</strong> You shrink one size smaller. You have
+      advantage on Dexterity (Stealth) checks.</li>
+      <li><strong>Unnatural Voice (1 point):</strong> You can speak normally while in
+      beast form.</li>
+      <li><strong>Venomous Attacks (2 points):</strong> Your natural weapon attacks
+      deal an extra 1d6 poison damage.</li>
+      </ul>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Mutation 2
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/nature/stealth-hide-eyes-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfMutateShape0'

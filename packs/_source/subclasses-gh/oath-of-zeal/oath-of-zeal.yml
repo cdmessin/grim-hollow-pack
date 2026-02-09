@@ -1,0 +1,102 @@
+_id: GHcOathOfZeal000
+name: Oath of Zeal
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>The Oath of Zeal is taken by paladins who serve as inquisitors and
+      zealous enforcers of divine law. With burning conviction, they root out
+      heresy, unmask deception, and bring the light of truth to the darkest
+      corners of the world.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: oath-of-zeal
+  classIdentifier: paladin
+  advancement:
+    - _id: ghadvOathZl00003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfZealSpells00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfMarkHeretic0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfInquisEye000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvOathZl00007
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfAuraClarity0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 7
+      title: Features
+    - _id: ghadvOathZl00015
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfCompelConfss
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 15
+      title: Features
+    - _id: ghadvOathZl00020
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfApocalypRev0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 20
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcOathOfZeal000'

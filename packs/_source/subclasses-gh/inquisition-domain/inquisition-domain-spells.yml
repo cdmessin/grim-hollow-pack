@@ -1,0 +1,71 @@
+_id: GHcfInqDomSpells
+name: Inquisition Domain Spells
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You gain domain spells at the cleric levels listed in the Inquisition
+      Domain Spells table. Once you gain a domain spell, you always have it
+      prepared, and it doesn't count against the number of spells you can prepare
+      each day. If you have a domain spell that doesn't appear on the cleric spell
+      list, the spell is nonetheless a cleric spell for you.</p>
+      <table>
+      <thead><tr><th>Cleric Level</th><th>Spells</th></tr></thead>
+      <tbody>
+      <tr><td>1st</td><td><em>Detect Magic, Identify</em></td></tr>
+      <tr><td>3rd</td><td><em>See Invisibility, Zone of Truth</em></td></tr>
+      <tr><td>5th</td><td><em>Counterspell, Dispel Magic</em></td></tr>
+      <tr><td>7th</td><td><em>Arcane Eye, Locate Creature</em></td></tr>
+      <tr><td>9th</td><td><em>Hold Monster, Wall of Force</em></td></tr>
+      </tbody>
+      </table>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Inquisition Domain 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/holy/bible-book-sun-gold.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfInqDomSpells'

@@ -1,0 +1,67 @@
+_id: GHcfBloodTies000
+name: Blood Ties
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, your senses easily attune to the supernatural forces
+      that caused your inherited affliction. You know the detect evil and good
+      spell and can cast it without expending a spell slot. This spell counts
+      as a sorcerer spell for you but does not count against your number of
+      spells known. Once you cast this spell without using a spell slot, you
+      can't do so again until you finish a short or long rest.</p>
+      <p>In addition, choose one of the following creature types as the being
+      which cursed your ancestor: fey, fiend, or undead. While you are
+      concentrating on the detect evil and good spell, creatures of your chosen
+      type have disadvantage on attack rolls against you, and you cannot be
+      charmed, frightened, or possessed by such creatures.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Wretched Bloodline 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/life/heart-shadow-dark.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfBloodTies000'

@@ -1,0 +1,61 @@
+_id: GHcfSpawnPawn000
+name: Spawn Pawn
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 10th level, as an action, you can infect a creature within 5 feet with a parasitic spawn. The creature must succeed on a Constitution saving throw against your warlock spell save DC or be charmed by you for up to 1 hour. While charmed, the creature regards you as a trusted ally and follows your verbal commands. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once you use this feature, you can't use it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: The Parasite 10
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/control/voodoo-doll-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfSpawnPawn000'

@@ -1,0 +1,65 @@
+_id: GHcfImprovTalnt0
+name: Improvisational Talent
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can swap one of your current talents for a
+      different talent from the Talented Adventurer list. This change lasts
+      until you use this feature again or finish a long rest.</p>
+      <p>You can use this feature a number of times equal to your Charisma
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '@abilities.cha.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: College of Adventurers 14
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/control/buff-flight-wings-runes-blue.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfImprovTalnt0'

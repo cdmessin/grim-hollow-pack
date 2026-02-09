@@ -1,0 +1,66 @@
+_id: GHcfEndlessEvol0
+name: Endless Evolution
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 10th level, when you enter your Wild Shape, you gain a number of mutation
+      points equal to your Wisdom modifier (minimum of 1). Unspent mutation points
+      are lost when you leave your beast shape.</p>
+      <p>In addition, you can use an action to touch a beast and expend a spell slot,
+      causing it to mutate. You gain a number of mutation points equal to the level
+      of the spell slot or the CR of the beast, whichever is lower. As part of the
+      same action, you must spend all mutation points on mutations which manifest in
+      the beast. Unspent points are lost. Mutations remain indefinitely until the
+      same beast is targeted by a different use of this feature or by dispel magic,
+      remove curse, or similar magic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Mutation 10
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/nature/root-vine-entangled-green.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfEndlessEvol0'

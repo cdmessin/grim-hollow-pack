@@ -1,0 +1,62 @@
+_id: GHcfProphcyDoom0
+name: 'Channel Divinity: Prophecy of Doom'
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use your Channel Divinity to pronounce
+      a doom upon a creature. As an action, choose one creature you can see
+      within 60 feet of you. For 1 minute, the next saving throw that creature
+      makes is made with disadvantage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Eldritch Domain 2
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/unholy/projectile-bolt-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfProphcyDoom0'

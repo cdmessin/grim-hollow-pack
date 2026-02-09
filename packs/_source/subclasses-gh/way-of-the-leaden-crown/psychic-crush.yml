@@ -1,0 +1,102 @@
+_id: GHcfPsychCrush00
+name: Psychic Crush
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 11th level, you can spend 3 ki points as an action to attempt to psychically crush a creature you can see within 60 feet. The target must make an Intelligence saving throw against your ki save DC. On a failure, it takes 3d10 psychic damage and is incapacitated until the end of your next turn. On a success, it takes half damage and isn't incapacitated.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Leaden Crown 11
+  properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Psychically crush a creature
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        critical:
+          bonus: ''
+        parts:
+          - number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+sort: 0
+flags: {}
+img: icons/magic/control/debuff-chains-ropes-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPsychCrush00'

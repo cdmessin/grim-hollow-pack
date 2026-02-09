@@ -1,0 +1,64 @@
+_id: GHcfSkinriderTrn
+name: Skinrider's Trance
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You can enter a trance as an action, allowing you to see through your
+      primal companion's eyes and hear through its ears for up to 1 hour.
+      During this time, you are blind and deaf with regard to your own
+      senses.</p>
+      <p>While in the trance, you can control your companion's actions directly
+      as if you were in its space. You can end the trance at any time (no
+      action required).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Path of the Primal Spirit 10
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfSkinriderTrn'

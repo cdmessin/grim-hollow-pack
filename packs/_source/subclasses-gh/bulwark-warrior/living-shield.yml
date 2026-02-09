@@ -1,0 +1,59 @@
+_id: GHcfLivingShld00
+name: Living Shield
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>When a creature within 5 feet of you is targeted by an attack, you can
+      use your reaction to make yourself the target of the attack instead.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When ally within 5 ft is targeted by attack
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 5
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Bulwark Warrior 7
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/equipment/shield/heater-steel-engraved.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfLivingShld00'

@@ -1,0 +1,69 @@
+_id: GHcfPestilSpells
+name: Oath of Pestilence Spells
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You gain oath spells at the paladin levels listed in the Oath of
+      Pestilence Spells table. These spells are always prepared and don't count
+      against the number of spells you can prepare each day.</p>
+      <table>
+      <thead><tr><th>Paladin Level</th><th>Spells</th></tr></thead>
+      <tbody>
+      <tr><td>3rd</td><td><em>Detect Poison and Disease, Ray of Sickness</em></td></tr>
+      <tr><td>5th</td><td><em>Blindness/Deafness, Ray of Enfeeblement</em></td></tr>
+      <tr><td>9th</td><td><em>Stinking Cloud, Bestow Curse</em></td></tr>
+      <tr><td>13th</td><td><em>Blight, Giant Insect</em></td></tr>
+      <tr><td>17th</td><td><em>Contagion, Insect Plague</em></td></tr>
+      </tbody>
+      </table>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Pestilence 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/death/skull-poison-green-gold.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPestilSpells'

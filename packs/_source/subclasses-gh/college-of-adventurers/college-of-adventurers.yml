@@ -1,0 +1,86 @@
+_id: GHcAdventurers00
+name: College of Adventurers
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Bards of the College of Adventurers are jacks of all trades who pride
+      themselves on versatility. Rather than mastering a single art, they
+      collect an eclectic array of talents picked up from fellow adventurers,
+      turning themselves into the ultimate support for any party.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: college-of-adventurers
+  classIdentifier: bard
+  advancement:
+    - _id: ghadvAdvntrrs003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfTalentedAdv0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPartyPlannr0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvAdvntrrs006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfWellRounded0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvAdvntrrs014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfImprovTalnt0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/tools/instruments/lute-gold-brown.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcAdventurers00'

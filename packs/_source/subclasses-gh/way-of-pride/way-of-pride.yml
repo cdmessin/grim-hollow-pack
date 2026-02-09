@@ -1,0 +1,103 @@
+_id: GHcWayOfPride000
+name: Way of Pride
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Monks of the Way of Pride channel their ego and self-assurance into
+      martial prowess. Their unshakeable belief in their own superiority fuels
+      their ki, turning wounded pride into devastating counterattacks and sheer
+      force of personality into a weapon.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: way-of-pride
+  classIdentifier: monk
+  advancement:
+    - _id: ghadvWayPrde0003
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfTallTales000
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBruisedEgo00
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfAssrtiveAtk0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Features
+    - _id: ghadvWayPrde0006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfIrratnRetln0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfRedoubEffrt0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvWayPrde0011
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfEverPrideful
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 11
+      title: Features
+    - _id: ghadvWayPrde0017
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfEgotistcl000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/fire/flame-burning-gold-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcWayOfPride000'

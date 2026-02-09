@@ -1,0 +1,104 @@
+_id: GHcWretchedBld00
+name: Wretched Bloodline
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>With every promise made to a fairy, contract signed with a devil, and
+      pact with the unquiet dead, there's a chance someone doesn't bear the
+      full brunt of the bargain. The vengeance of immortal beings lasts much
+      longer than one lifetime, and the lingering magic of these curses can
+      affect the mortal's descendants. A child born of such a family may learn
+      to master the latent magic within their inherited curse, turning their
+      bloodline's bane into a personal boon.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: wretched-bloodline
+  classIdentifier: sorcerer
+  advancement:
+    - _id: ghadvWrtchBl0001
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBadLuckChrm0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBloodTies000
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+      title: Features
+    - _id: ghadvWrtchBl0006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfTerrifyVisg0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvWrtchBl0014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfCursedResil0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+    - _id: ghadvWrtchBl0018
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfVengefulSmmn
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 18
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/unholy/hand-light-beam-ringed-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcWretchedBld00'

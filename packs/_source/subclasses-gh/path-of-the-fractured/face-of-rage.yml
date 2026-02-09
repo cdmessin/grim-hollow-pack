@@ -1,0 +1,62 @@
+_id: GHcfFaceOfRage00
+name: Face of Rage
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you rage, your face transforms into a terrifying visage. Each
+      creature of your choice within 30 feet of you that can see you must
+      succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus
+      + your Constitution modifier) or be frightened of you until the end of
+      your next turn. A creature that succeeds on this saving throw is immune
+      to this effect for 24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: special
+    condition: When you rage
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: creature
+      choice: true
+    template:
+      units: ft
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Path of the Fractured 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/fire/explosion-embers-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfFaceOfRage00'

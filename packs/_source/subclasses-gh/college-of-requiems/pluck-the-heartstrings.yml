@@ -1,0 +1,59 @@
+_id: GHcfPluckHeart00
+name: Pluck the Heartstrings
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you gain the ability to pluck at the tethers of life within a creature using your Bardic Inspiration.</p>
+      <p>A creature with one of your Bardic Inspiration dice can expend it when dealing damage with a weapon attack to deal additional necrotic damage equal to the die result.</p>
+      <p>When a living creature that has your Bardic Inspiration die is reduced to 0 hit points, it can expend that die as a reaction to be reduced to 1 hit point instead.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: College of Requiems 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/death/skull-humanoid-runes-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPluckHeart00'

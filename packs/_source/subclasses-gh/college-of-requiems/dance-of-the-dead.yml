@@ -1,0 +1,59 @@
+_id: GHcfDanceDead000
+name: Dance of the Dead
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 14th level, when you cast a necromancy spell that targets only one creature, you can have it target a second creature within range. This does not consume additional components. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: College of Requiems 14
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/death/undead-skeleton-deform-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfDanceDead000'

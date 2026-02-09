@@ -1,0 +1,65 @@
+_id: GHcfDrainLife000
+name: Drain Life
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, when you hit a creature with an attack, you can drain
+      its life force to heal yourself. You regain hit points equal to half the
+      damage dealt. You can use this feature a number of times equal to your
+      proficiency bonus, and you regain all expended uses when you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: special
+    condition: When you hit a creature with an attack
+    value: null
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: '@prof'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: The First Vampire 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/life/heart-cross-strong-flame-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfDrainLife000'

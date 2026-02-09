@@ -1,0 +1,70 @@
+_id: GHcfEldDomSpells
+name: Eldritch Domain Spells
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you gain domain spells at the cleric levels
+      listed in the Eldritch Domain Spells table. Once you gain a domain spell,
+      you always have it prepared, and it doesn't count against the number of
+      spells you can prepare each day.</p>
+      <table>
+      <thead><tr><th>Cleric Level</th><th>Spells</th></tr></thead>
+      <tbody>
+      <tr><td>1st</td><td><em>Arms of Hadar, Dissonant Whispers</em></td></tr>
+      <tr><td>3rd</td><td><em>Detect Thoughts, See Invisibility</em></td></tr>
+      <tr><td>5th</td><td><em>Hunger of Hadar, Sending</em></td></tr>
+      <tr><td>7th</td><td><em>Evard's Black Tentacles, Phantasmal Killer</em></td></tr>
+      <tr><td>9th</td><td><em>Contact Other Plane, Telekinesis</em></td></tr>
+      </tbody>
+      </table>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Eldritch Domain 1
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfEldDomSpells'

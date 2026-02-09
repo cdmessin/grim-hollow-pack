@@ -1,0 +1,66 @@
+_id: GHcfCompelConfss
+name: Compel Confession
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 15th level, as an action, you can force a creature within 30 feet
+      that can hear you to make a Wisdom saving throw against your paladin
+      spell save DC. On a failure, the creature must answer one question you
+      ask truthfully, or take 4d8 psychic damage. The creature can choose to
+      take the damage instead of answering. Once you use this feature, you
+      can't use it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Zeal 15
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfCompelConfss'

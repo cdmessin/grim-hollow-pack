@@ -1,0 +1,62 @@
+_id: GHcfCunningBrutl
+name: Cunning and Brutal
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>While raging, when a creature misses you with a melee attack, you can
+      use your reaction to make one melee weapon attack against that creature.
+      Additionally, your melee weapon attacks score a critical hit on a roll of
+      19 or 20.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: reaction
+    condition: When a creature misses you with a melee attack
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '5'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Path of the Fractured 10
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/skills/melee/strike-sword-slashing-red.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfCunningBrutl'

@@ -1,0 +1,58 @@
+_id: GHcfPsionicMstr0
+name: Psionic Mastery
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 17th level, you gain telepathy with a range of 120 feet.</p>
+      <p>You can also spend 5 ki points to cast <em>dominate person</em>. Wisdom is your spellcasting ability for this spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Leaden Crown 17
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfPsionicMstr0'

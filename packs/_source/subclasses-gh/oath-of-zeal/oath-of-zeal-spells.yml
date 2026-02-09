@@ -1,0 +1,68 @@
+_id: GHcfZealSpells00
+name: Oath of Zeal Spells
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>You gain oath spells at the paladin levels listed in the Oath of Zeal
+      Spells table. See the Sacred Oath class feature for how oath spells work.</p>
+      <table>
+      <thead><tr><th>Paladin Level</th><th>Spells</th></tr></thead>
+      <tbody>
+      <tr><td>3rd</td><td><em>Command</em>, <em>Searing Smite</em></td></tr>
+      <tr><td>5th</td><td><em>Hold Person</em>, <em>Zone of Truth</em></td></tr>
+      <tr><td>9th</td><td><em>Haste</em>, <em>Remove Curse</em></td></tr>
+      <tr><td>13th</td><td><em>Banishment</em>, <em>Wall of Fire</em></td></tr>
+      <tr><td>17th</td><td><em>Destructive Wave</em>, <em>Hold Monster</em></td></tr>
+      </tbody>
+      </table>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Zeal 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/holy/bible-book-sun-gold.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfZealSpells00'

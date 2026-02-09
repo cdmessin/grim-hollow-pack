@@ -1,0 +1,62 @@
+_id: GHcfMarkHeretic0
+name: 'Channel Divinity: Mark of the Heretic'
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can use your Channel Divinity to mark a
+      creature you can see within 60 feet as a heretic for 1 minute. You and
+      your allies deal an extra 1d6 radiant damage to the marked creature when
+      you hit it with a weapon attack.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: channelDivinity
+  requirements: Oath of Zeal 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/holy/prayer-ringed-aura-yellow.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfMarkHeretic0'

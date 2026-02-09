@@ -1,0 +1,60 @@
+_id: GHcfEverPrideful
+name: Ever Prideful
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 11th level, you have advantage on saving throws against being
+      frightened. When you succeed on a saving throw against being frightened,
+      you can use your reaction to make one melee weapon attack against the
+      source of the fear, if it is within reach.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of Pride 11
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfEverPrideful'

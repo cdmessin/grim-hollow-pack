@@ -1,0 +1,66 @@
+_id: GHcfProtecTaunt0
+name: Protective Taunt
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can taunt a creature within 30 feet of you that
+      can see or hear you. Until the start of your next turn, the creature has
+      disadvantage on attack rolls against creatures other than you.</p>
+      <p>You can use this feature a number of times equal to your Constitution
+      modifier (minimum of once), and you regain all expended uses when you finish
+      a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    units: ft
+  uses:
+    max: '@abilities.con.mod'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Bulwark Warrior 3
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/skills/social/intimidation-impressing.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfProtecTaunt0'

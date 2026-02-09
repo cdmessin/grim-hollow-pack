@@ -1,0 +1,79 @@
+_id: GHcfTerrifyVisg0
+name: Terrifying Visage
+ownership:
+  default: 0
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 6th level, you can use a bonus action to adopt the
+      terrifying visage of the being who cursed your ancestor for 10 minutes.
+      During this time, you can use an action on each of your turns to force
+      each creature within 30 feet that can see you to make a Wisdom saving
+      throw against your sorcerer spell save DC. On a failure, a creature is
+      frightened of you until the end of your next turn.</p>
+      <p>While you have adopted the terrifying visage, you gain an additional
+      benefit based on the creature type chosen with your Blood Ties
+      feature:</p>
+      <ul>
+        <li><strong>Fey:</strong> You can use a bonus action to teleport up to
+        30 feet in any direction.</li>
+        <li><strong>Fiend:</strong> You gain resistance to cold and fire
+        damage.</li>
+        <li><strong>Undead:</strong> When you take damage that isn't radiant,
+        you can use your reaction to reduce that damage by an amount equal to
+        half your sorcerer level.</li>
+      </ul>
+      <p>Once you use this feature, you can't use it again until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Wretched Bloodline 6
+  properties: []
+  activities: {}
+sort: 0
+flags: {}
+img: icons/magic/fire/explosion-embers-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcfTerrifyVisg0'

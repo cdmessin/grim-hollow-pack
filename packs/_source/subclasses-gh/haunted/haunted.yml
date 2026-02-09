@@ -1,0 +1,100 @@
+_id: GHcHaunted000000
+name: Haunted
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>Haunted sorcerers are accompanied by a phantom entity—the restless spirit of a dead ancestor, a ghostly guardian, or an echo of death itself. This spectral companion grants them power over life and death, and as they grow in power, the line between the living and the dead grows ever thinner.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: haunted
+  classIdentifier: sorcerer
+  advancement:
+    - _id: ghadvHaunted0001
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfHauntedSpell
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPhantomComp0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfSixthSense00
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+      title: Features
+    - _id: ghadvHaunted0006
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfStrOfSpirit0
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfDeathlyPallr
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: Features
+    - _id: ghadvHaunted0014
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfPhantomPoss0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: Features
+    - _id: ghadvHaunted0018
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.grim-hollow-pack.subclasses-gh.GHcfBecomeDeath0
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 18
+      title: Features
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/death/skull-humanoid-white-blue.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcHaunted000000'
